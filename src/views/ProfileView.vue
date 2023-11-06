@@ -1,5 +1,18 @@
 <template>
     <div class="profile">
-      <h1>This is an profile page</h1>
+        <font-awesome-icon icon="user" />
+        <ProfileComponent msg="Welcome to MASHIDDA App"/>
     </div>
   </template>
+
+<script>
+// @ is an alias to /src
+import ProfileComponent from '@/components/ProfileComponent.vue'
+
+export default {
+  name: 'ProfileView',
+  components: {
+    ProfileComponent
+  }
+}
+</script>
