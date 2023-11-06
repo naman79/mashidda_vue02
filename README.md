@@ -1,0 +1,1 @@
+# mashidda_vue02
