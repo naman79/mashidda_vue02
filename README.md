@@ -32,5 +32,5 @@ fab
 )
 // 불러온 아이콘을 라이브러리에 담기.
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
 // fontawesome아이콘을 Vue탬플릿에 사용할 수 있게 등록.
